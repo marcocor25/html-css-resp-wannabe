@@ -1,4 +1,4 @@
-/* PROVA */
+/* SMARTPHONE */
 
 @media screen and (max-width: 480px) {
     * {
@@ -10,14 +10,14 @@
     .row {
       width: 100%;
       margin-top: 0;
-      padding: 10px 0;
+      padding-top: 10px;
       background: #F3F2CD;
     }
 
     #lezioni .row>.left, #lezioni .row>.right {
         width: 100%;
-        float: none;
         padding: 10px 5px;
+        float: none;
     }
 
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
@@ -28,6 +28,12 @@
 
     #steps .row {
         background: white
+    }
+
+    #why .row>.first, #why .row>.second, #why .row>.third {
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 10px;
     }
 
     img {
