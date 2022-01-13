@@ -1,6 +1,6 @@
 /* PROVA */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
     * {
       margin: 0;
       padding: 0;
@@ -10,18 +10,27 @@
     .row {
       width: 100%;
       margin-top: 0;
+      padding: 10px 0;
       background: #F3F2CD;
     }
 
     #lezioni .row>.left, #lezioni .row>.right {
         width: 100%;
         float: none;
-        padding: 50px 0;
+        padding: 10px 5px;
     }
 
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
         width: 100%;
-        padding: 50px 50px;
+        padding: 20px 50px;
         float: none;
+    }
+
+    #steps .row {
+        background: white
+    }
+
+    img {
+        height: 100px
     }
 }
